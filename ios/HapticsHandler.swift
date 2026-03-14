@@ -3,7 +3,6 @@ import UIKit
 final class HapticsHandler: NativeHandler {
     let namespace = "haptics"
 
-    private let impact = UIImpactFeedbackGenerator()
     private let notification = UINotificationFeedbackGenerator()
     private let selection = UISelectionFeedbackGenerator()
 
