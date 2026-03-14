@@ -1,0 +1,14 @@
+{
+    "name": "Haptics",
+    "namespace": "haptics",
+    "platforms": {
+        "ios": {
+            "handlers": ["ios/HapticsHandler.swift"],
+            "frameworks": ["UIKit"]
+        }
+    },
+    "js": ["js/haptics.js"],
+    "php": {
+        "files": ["php/Haptics.php"]
+    }
+}
